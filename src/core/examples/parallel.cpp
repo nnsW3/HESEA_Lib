@@ -90,7 +90,7 @@ int main(int argc, char *argv[]) {
             << std::endl
             << std::endl;
   std::cout
-      << "to change # threads from the default, execute at the comamnd line "
+      << "to change # threads from the default, execute at the command line "
       << std::endl;
   std::cout << " For the bash shell, enter:" << std::endl
             << "export OMP_NUM_THREADS=<number of threads to use>" << std::endl
