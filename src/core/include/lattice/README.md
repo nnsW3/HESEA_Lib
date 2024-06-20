@@ -46,7 +46,7 @@ The three main data classes in this layer are Poly, NativePoly and DCRTPoly.
 
 A Poly is a single-CRT representation using BigInteger types as coefficients, and supporting a large modulus q.
 
-A NativePoly is a single-CRT representation using NativeInteger types, which limites the size of the coefficients and the modulus q to 64 bits.
+A NativePoly is a single-CRT representation using NativeInteger types, which limits the size of the coefficients and the modulus q to 64 bits.
 
 A DCRTPoly is a double-CRT representation.  In practice, this means that Poly uses a single large modulus q, while  DCRTPoly uses multiple smaller moduli.  Hence, Poly runs slower than DCRTPoly because DCRTPoly operations can be easier to fit into the native bitwidths of commodity processors.
 
