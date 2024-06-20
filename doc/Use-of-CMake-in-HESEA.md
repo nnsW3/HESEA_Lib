@@ -27,7 +27,7 @@ HESEA requires that certain packages and applications be available on the system
 
 These packages are as follows:
 - OpenMP
-- Autoconfig tools (for some third party code)
+- Autoconfig tools (for some third-party code)
 - Git
 - Doxygen (if not found, generating Doxygen files is disabled)
 
