@@ -53,7 +53,7 @@ Note that CMake will check for any system dependencies that are needed for the b
 
 4. If you want to use any external libraries, such as NTL/GMP or tcmalloc, install these libraries.
 
-5. Build HESEA by running the following command (this will take few minutes; using the -j make command-line flag is suggested to speed up the build)
+5. Build HESEA by running the following command (this will take a few minutes; using the -j make command-line flag is suggested to speed up the build)
    
    ```
    make
@@ -147,7 +147,7 @@ HESEA CI continually tests our builds on the following operating systems:
 * NVIDIA Xavier [Linux for Tegra 4.2.2]
 * MinGW (64-bit) on Windows 10
 
-HESEA users have reported successful operation on the following systems:
+HESEA users have reported successful operations on the following systems:
 
 * FreeBSD
 * Ubuntu [16.04]
