@@ -54,7 +54,7 @@ int main() {
     double center =
         (static_cast<double>(i) / static_cast<double>(CENTER_COUNT));
     // Base sampler takes the parameters mean of the distribution, standard
-    // deviation of distribution, bit generator used for random bits and the
+    // deviation of the distribution, bit generator used for random bits and the
     // type of the sampler
     peikert_samplers[i] =
         new BaseSampler(static_cast<double>(center), stdBase, &bg, PEIKERT);
