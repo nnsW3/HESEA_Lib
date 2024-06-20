@@ -54,7 +54,7 @@ Note that cmake will check for any system dependencies that are needed for the b
 
 4. The HESEA distribution includes some external libraries, such as GMP. NTL and tcmalloc. If you want to use any of these libraries, enable them when you run cmake to force them to build (see instructions on cmake options).
 
-5. Build HESEA by running the following command (this will take few minutes; using the -j<threads> make command-line flag is suggested to speed up the build)
+5. Build HESEA by running the following command (this will take a few minutes; using the -j<threads> make command-line flag is suggested to speed up the build)
 ```
 make
 ```
